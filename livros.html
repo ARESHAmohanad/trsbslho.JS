@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="fundo">
+    <div class="titulo">
+        <h2>Lista de Livros</h2>
+    </div>
+    <div class="textos">
+        <li class="menu">
+            <button>Menu</button>
+            <ul class="submenu">
+            <li><a href="index.html"><button>voltar</button></a>
+            </li>
+        </ul>
+        </li>
+
+    </div>
+    
+        <div class="container">
+        
+        <h1>Lista de Livros para ler</h1>
+
+        
+        <form id="form-livro">
+            <input type="text" id="titulo" placeholder="Título do Livro" required>
+            <input type="text" id="autor" placeholder="Autor do Livro" required>
+            <button type="submit" class="botaoverde" >Adicionar Livro</button>
+        </form>
+        <div class="scroll-container" id="scrollContainer">
+        <ul id="livros-lista">
+        
+            
+        </ul>
+        </div>
+       </div>
+    
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
